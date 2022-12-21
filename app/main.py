@@ -15,6 +15,9 @@ async def authenticate(api_key: str = Security(APIKeyHeader(name="Authorization"
             detail="Invalid API Key",
         )
 
+
+# TESTER 2
+
 # Require the API_KEY for every endpoint
 app = FastAPI(dependencies=[Security(authenticate)])
 
