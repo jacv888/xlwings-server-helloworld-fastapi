@@ -1,5 +1,5 @@
 function hello() {
-  runPython("url", { auth: "..." });
+  runPython("https://8000-jacv888-xlwingsserverhe-raigsf5xa9p.ws-eu80.gitpod.io/hello", { auth: "0f5d5d460f3dd6a712f7fa1a8164a832223d110e43697aaebcf82cdd87cd4a63" });
 }
 
 /**
@@ -423,7 +423,7 @@ function alert(workbook, action) {
   } else if (rv == ui.Button.CANCEL) {
     buttonResult = "cancel";
   } else if (rv == ui.Button.YES) {
-    buttonResult = "yes";
+    buttonResult = "0f5d5d460f3dd6a712f7fa1a8164a832223d110e43697aaebcf82cdd87cd4a63";
   } else if (rv == ui.Button.NO) {
     buttonResult = "no";
   }
